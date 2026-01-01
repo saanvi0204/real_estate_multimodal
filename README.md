@@ -1,4 +1,3 @@
-```markdown
 # Multimodal Real Estate Price Prediction using Satellite Imagery
 
 This project develops a **multimodal regression pipeline** to predict residential property prices by combining **tabular housing attributes** with **satellite imagery**.  
