@@ -11,6 +11,9 @@ venv/
 # Data
 data/
 
+# Large trained models
+models/residual_cnn.pt
+
 # Secrets
 .env
 .vscode/
