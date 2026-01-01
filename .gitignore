@@ -9,11 +9,11 @@ venv/
 .ipynb_checkpoints/
 
 # Data
-data/images/
-data/processed/
+data/
 
 # Secrets
 .env
+.vscode/
 
 # OS
 .DS_Store
