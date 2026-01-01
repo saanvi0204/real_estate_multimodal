@@ -202,7 +202,7 @@ Run notebooks **in the following order** to reproduce results:
 
 ---
 
-## 🔬 Reproducibility Notes
+## Reproducibility Notes
 
 * All random seeds are fixed where applicable
 * Pretrained ImageNet weights are used for CNN initialization
@@ -213,7 +213,7 @@ Run notebooks **in the following order** to reproduce results:
 
 ---
 
-## 📤 Final Output
+## Final Output
 
 The final deliverable is:
 
@@ -231,7 +231,7 @@ This file contains predicted property prices for the unseen test dataset.
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Models are evaluated using:
 
@@ -242,17 +242,14 @@ Comparisons between tabular-only and multimodal models are reported in `model_tr
 
 ---
 
-## 🧠 Key Takeaway
+## Key Takeaway
 
 This project demonstrates that **satellite imagery provides complementary environmental signals** that improve real estate valuation when integrated thoughtfully with tabular data—particularly via residual learning and explainable deep vision models.
 
 ---
 
-## 📌 Notes
+## Notes
 
 * The project is structured for **clarity, reproducibility, and interpretability**
 * Each notebook has a clearly scoped responsibility
 * Designed to reflect real-world ML workflows and research practices
-
-```
-```
