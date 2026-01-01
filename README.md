@@ -1,6 +1,3 @@
-Below is your **same README content**, with a **clean, professional explanation of `data_fetcher.py` added** in the correct place.
-You can **copy–paste this entire block directly** into `README.md`.
-
 ```markdown
 # Multimodal Real Estate Price Prediction using Satellite Imagery
 
