@@ -12,7 +12,7 @@ venv/
 data/
 
 # Large trained models
-models/residual_cnn.pt
+models/*.pt
 
 # Secrets
 .env
