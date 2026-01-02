@@ -57,7 +57,7 @@ real_estate_multimodal/
 Using **Anaconda** (recommended):
 
 ```bash
-conda create -n real_estate_mm python=3.10
+conda create -n real_estate_mm python=3.11
 conda activate real_estate_mm
 pip install -r requirements.txt
 ````
@@ -112,15 +112,6 @@ data/images/<property_id>.0.png
    * Skips images that already exist
    * Applies rate-limiting between API calls
    * Logs failed downloads without interrupting execution
-
-### Why This Is a Separate Script
-
-* Image fetching is **deterministic and reusable**
-* Separating it from notebooks avoids:
-
-  * Accidental API overuse
-  * Mixing I/O-heavy code with modeling logic
-* Keeps notebooks focused on **analysis and learning**
 
 This script must be executed **before any image-based modeling steps**.
 
