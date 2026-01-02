@@ -7,7 +7,7 @@ and saves them as PNG files.
 Requirements:
 - data/processed/train_clean.csv
 - Columns: id, lat, long
-- GOOGLE_MAPS_API_KEY stored in .env
+- MAPS_API_KEY stored in .env
 
 Output:
 - data/images/{property_id}.png
@@ -32,14 +32,14 @@ SCALE = 1
 SLEEP_TIME = 0.15
 
 load_dotenv()
-API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
+API_KEY = os.getenv("MAPS_API_KEY")
 
 if API_KEY is None:
-    raise ValueError("GOOGLE_MAPS_API_KEY not found in environment variables.")
+    raise ValueError("MAPS_API_KEY not found in environment variables.")
 
 def build_image_url(lat: float, lon: float) -> str:
     """
-    Construct Google Maps Static API URL.
+    Construct Maps Static API URL.
     """
     return (
         "https://maps.googleapis.com/maps/api/staticmap"
