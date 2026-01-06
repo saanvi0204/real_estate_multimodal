@@ -1,7 +1,6 @@
 # Multimodal Real Estate Price Prediction using Satellite Imagery
 
-This project develops a **multimodal regression pipeline** to predict residential property prices by combining **tabular housing attributes** with **satellite imagery**.  
-The approach integrates environmental context—such as green cover, road density, and proximity to water—into traditional real estate valuation models.
+This project develops a **multimodal regression pipeline** to predict residential property prices by combining **tabular housing attributes** with **satellite imagery**. The approach integrates environmental context—such as green cover, road density, and proximity to water—into traditional real estate valuation models.
 
 The project follows a **research-oriented workflow**, progressing from exploratory analysis to multimodal modeling, explainability, and final inference.
 
@@ -40,11 +39,12 @@ real_estate_multimodal/
 │   ├── residual_cnn.pt
 │
 ├── outputs/
-│   ├── predictions.csv
+│   ├── 23323035_final.csv
 │   └── gradcam/
 │
 ├── requirements.txt
-└── README.md
+├── README.md
+└── 23323035_report.pdf
 
 ````
 
@@ -209,7 +209,7 @@ Run notebooks **in the following order** to reproduce results:
 The final deliverable is:
 
 ```
-outputs/predictions.csv
+outputs/23323035_final.csv
 ```
 
 Format:
